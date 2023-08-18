@@ -98,3 +98,6 @@
   align-items: center;
   justify-content: flex-start;
 }
+.root{
+    background-color: #01242e;
+}
