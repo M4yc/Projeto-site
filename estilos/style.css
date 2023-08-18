@@ -1,103 +1,36 @@
-.header,
-.header * {
-  box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
-.header {
-  padding: 20px 0px 20px 0px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 988px;
-  position: relative;
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
-.logo {
-  flex-shrink: 0;
-  width: 211px;
-  height: 48px;
-  position: relative;
+
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.designer {
-  text-align: left;
-  font: 700 48px "Josefin Sans", sans-serif;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+
+.rating-container {
+  text-align: center;
+  margin-top: 30px;
 }
-.designer-span {
-  color: #ffffff;
-  font: 700 48px "Josefin Sans", sans-serif;
+
+.stars {
+  font-size: 24px;
 }
-.designer-span2 {
-  color: var(--primaria-1, #006b8d);
-  font: 700 48px "Josefin Sans", sans-serif;
+
+.star {
+  cursor: pointer;
+  margin: 0 5px;
 }
-.frame-1 {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.inicio {
-  color: var(--write-1, #ffffff);
-  text-align: left;
-  font: 600 20px "Josefin Sans", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.sobre {
-  color: var(--write-1, #ffffff);
-  text-align: left;
-  font: 600 20px "Josefin Sans", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.servi-os {
-  color: var(--write-1, #ffffff);
-  text-align: left;
-  font: 600 20px "Josefin Sans", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.portfolio {
-  color: var(--write-1, #ffffff);
-  text-align: left;
-  font: 600 20px "Josefin Sans", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.pre-os {
-  color: var(--write-1, #ffffff);
-  text-align: left;
-  font: 600 20px "Josefin Sans", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.contato {
-  color: var(--write-1, #ffffff);
-  text-align: left;
-  font: 600 20px "Josefin Sans", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.root{
-    background-color: #01242e;
+
+.star:hover {
+  color: gold;
 }
